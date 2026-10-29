@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "megarushack",
+  "version": "${version}",
+  "name": "MegaRusHack",
+  "description": "Клиентский Fabric-мод с неоновым ClickGUI и демонстрационными модулями.",
+  "authors": [
+    "MegaRusHack"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.megarus.MegaRusHack"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
